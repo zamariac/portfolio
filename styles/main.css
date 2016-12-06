@@ -1,0 +1,231 @@
+nav {
+  padding-top: 2em;
+<<<<<<< HEAD
+  height: 36em; }
+  nav span a {
+    margin: 1em;
+    color: black; }
+  nav section.nav-top {
+    text-align: center; }
+  nav h1 {
+    padding-top: 2em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .07em; }
+=======
+  height: 36em;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/pedernales.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  nav span a {
+    margin: 2em;
+    color: white; }
+  nav section.nav-top {
+    text-align: center; }
+  nav h1 {
+    padding-top: 7em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    letter-spacing: .05em; }
+>>>>>>> origin/master
+  nav p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+<<<<<<< HEAD
+    padding: 8em 2em;
+    letter-spacing: .06em;
+    line-height: 1.5; }
+
+.projects {
+  padding-top: 1em; }
+  .projects .instagram-clone {
+    background-color: #ECBA45; }
+    .projects .instagram-clone .project-screen {
+      background: url(../images/instagram.jpg); }
+    .projects .instagram-clone img {
+      padding: 3em 3em 0em;
+      width: 80%;
+      margin-top: 3em; }
+    .projects .instagram-clone div .block span {
+      background-color: #F5E1A8; }
+  .projects .nenas-website {
+    background-color: #EC8830; }
+    .projects .nenas-website img {
+      padding: 3em 3em 0em;
+      width: 80%;
+      margin-top: 3em; }
+    .projects .nenas-website div .block span {
+      background-color: #FCE7C9; }
+  .projects .snap-grid-website {
+    background-color: #0AA27B; }
+    .projects .snap-grid-website img {
+      padding: 3em 3em 0em;
+      width: 80%;
+      margin-top: 3em; }
+    .projects .snap-grid-website div .block span {
+      background-color: #6DB492; }
+  .projects h1 {
+    text-align: center;
+    padding: .5em; }
+  .projects .text-content p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .06em;
+    line-height: 1.5;
+    color: white;
+    padding: 2em; }
+  .projects div.links {
+    padding: 3em 8em 4em; }
+  .projects a {
+    color: white;
+    margin-right: 1em; }
+  .projects div.block {
+    text-align: center; }
+    .projects div.block span {
+      background-color: #AFAEAB;
+      margin: .2em;
+      border-radius: 5%;
+      padding: 0.5em; }
+
+footer {
+  height: 10em;
+  background-color: white;
+  text-align: center; }
+  footer a {
+    color: black; }
+  footer h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+=======
+    padding: 6em 4em;
+    letter-spacing: .06em;
+    line-height: 1.5;
+    color: white; }
+
+.projects {
+  margin: 4em; }
+  .projects .nenas-website {
+    background-image: url("../images/nenas-screen.jpg");
+    background-size: cover; }
+  .projects .instagram-clone {
+    background-image: url("../images/instagram.jpg");
+    background-size: cover;
+    border: black solid .1em; }
+  .projects .snap-grid-website {
+    background-image: url("../images/snapgrid.jpg");
+    background-size: cover; }
+  .projects ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  .projects ul.img-list li {
+    display: inline-block;
+    height: 20em;
+    margin: 1em;
+    position: relative;
+    width: 100%; }
+  .projects span.text-content {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    padding-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .06em; }
+  .projects p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 1em;
+    padding-right: 1em;
+    letter-spacing: .06em; }
+  .projects a {
+    color: white;
+    margin: 1em; }
+  .projects ul.img-list li:hover span.text-content {
+    opacity: 1; }
+  .projects div.block {
+    margin-bottom: 6em; }
+    .projects div.block span {
+      background-color: #AFAEAB;
+      margin: .9em;
+      border-radius: 5%;
+      padding: .5em; }
+
+footer {
+  height: 10em;
+  background-color: #467ECC;
+  text-align: center; }
+  footer a {
+    color: white; }
+  footer h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+>>>>>>> origin/master
+    letter-spacing: .05em;
+    padding-top: 2em; }
+
+@media (min-width: 767px) {
+  nav p {
+    padding-left: 6em;
+    padding-top: 4em; }
+
+  .projects {
+    margin-top: 2em; }
+    .projects ul.img-list li {
+      margin: 2em;
+      height: 30em; }
+    .projects span.text-content {
+      padding-top: 20%; }
+      .projects span.text-content h2 {
+        font-size: 30px; }
+    .projects p {
+      font-size: 22px; } }
+@media (min-width: 979px) {
+  nav span a {
+    margin: 4em; }
+  nav p {
+    font-size: 20px;
+    padding: 4em 4em;
+    margin-left: 10em;
+    margin-right: 10em; }
+
+  .projects {
+    margin-top: 4em;
+    margin-left: 10em;
+    margin-right: 10em; }
+    .projects ul.img-list li {
+      margin: 4em;
+      height: 42em;
+      width: 80%; }
+    .projects span.text-content h2 {
+      font-size: 35px; }
+    .projects span.text-content p {
+      font-size: 22px;
+      padding: 1em; }
+    .projects span.text-content div.block {
+      margin-bottom: 12em; }
+
+  footer {
+    font-size: 22px; } }
+
+/*# sourceMappingURL=main.css.map */

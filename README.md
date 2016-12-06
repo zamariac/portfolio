@@ -1,0 +1,1 @@
+Samples of projects displaying variety of skills: HTML, CSS, JavaScript, jQuery, Bootstrap, Sass, Ajax, Responsive Web Design. 
