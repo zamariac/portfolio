@@ -11,7 +11,6 @@ nav{
 			
 		}
 		h1{
-
 			padding-top: 2em;
 			text-align: center;
 			font-family: 'Open Sans', sans-serif;
@@ -21,10 +20,9 @@ nav{
 		p{
 			text-align: center;
 			font-family: 'Open Sans', sans-serif;
-			font-size: 18px;
+			font-size: 20px;
 			font-weight: 300;
-
-			padding: 8em 2em;
+			padding: 8em 1em;
 			letter-spacing: .06em;
 			line-height: 1.5;
 		
@@ -33,13 +31,11 @@ nav{
 
 .projects{
 	padding-top: 1em;
-
 	.instagram-clone{
 			background-color:#ECBA45;
 				img{
-					padding:3em 3em 0em;
-					width: 80%;
-					margin-top: 3em;
+					width: 100%;
+					margin-top: 5em;
 				}
 				div .block span{
 					background-color:#F5E1A8;
@@ -48,9 +44,9 @@ nav{
 	.nenas-website{
 			background-color: #EC8830;
 				img{
-					padding:3em 3em 0em;
-					width: 80%;
-					margin-top: 3em;
+					// padding:3em 3em 0em;
+					width: 100%;
+					margin-top: 5em;
 				}
 				div .block span{
 					background-color: #FCE7C9;
@@ -59,9 +55,9 @@ nav{
 	.snap-grid-website{
 			background-color:#0AA27B;
 				img{
-					padding:3em 3em 0em;
-					width: 80%;
-					margin-top: 3em;
+					// padding:3em 3em 0em;
+					width: 100%;
+					margin-top: 5em;
 				}
 				div .block span{
 					background-color:#6DB492;
@@ -86,7 +82,7 @@ nav{
 	}
 
 	div.links{
-		padding:3em 8em 4em;
+		padding:3em 2em 4em;
 	}
 	
 	a{
@@ -128,6 +124,7 @@ footer{
 	text-align: center;
 	a{
 		color:black;
+		padding-bottom:1em;
 	}	
 	h2{
 		font-family: 'Open Sans', sans-serif;
