@@ -1,76 +1,41 @@
 nav{
 	padding-top: 2em;
 	height: 36em;
-<<<<<<< HEAD
-	// background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/pedernales.jpg) no-repeat center center fixed; 
- //  	-webkit-background-size: cover;
- //  	-moz-background-size: cover;
- // 	 -o-background-size: cover;
- //  	background-size: cover;
-		span a{
-			margin:1em;
-			color: black;	
-=======
-	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/pedernales.jpg) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
- 	 -o-background-size: cover;
-  	background-size: cover;
+
 		span a{
 			margin:2em;
-			color: white;	
->>>>>>> origin/master
+			color: black;	
 		}
 		section.nav-top{
 			text-align: center;
 			
 		}
 		h1{
-<<<<<<< HEAD
+
 			padding-top: 2em;
 			text-align: center;
 			font-family: 'Open Sans', sans-serif;
-			// color: white;
-			letter-spacing: .07em;
-=======
-			padding-top: 7em;
-			text-align: center;
-			font-family: 'Open Sans', sans-serif;
-			color: white;
 			letter-spacing: .05em;
->>>>>>> origin/master
+
 		}
 		p{
 			text-align: center;
 			font-family: 'Open Sans', sans-serif;
 			font-size: 18px;
 			font-weight: 300;
-<<<<<<< HEAD
+
 			padding: 8em 2em;
 			letter-spacing: .06em;
 			line-height: 1.5;
-			// color: white;	
-=======
-			padding: 6em 4em;
-			letter-spacing: .06em;
-			line-height: 1.5;
-			color: white;	
->>>>>>> origin/master
+		
 		}
 }
 
 .projects{
-<<<<<<< HEAD
 	padding-top: 1em;
 
 	.instagram-clone{
 			background-color:#ECBA45;
-			.project-screen{
-				background: url(../images/instagram.jpg);
-				
-
-			}
-	
 				img{
 					padding:3em 3em 0em;
 					width: 80%;
@@ -139,56 +104,6 @@ nav{
 			padding:.5em ;
 		}
 	}
-=======
-		margin: 4em;
-	.nenas-website{
-			background-image: url("../images/nenas-screen.jpg");
-			background-size: cover;
-
-			}
-	.instagram-clone{
-			background-image: url("../images/instagram.jpg");
-			background-size: cover;
-			border: black solid .1em;
-			}
-	.snap-grid-website{
-			background-image: url("../images/snapgrid.jpg");
-			background-size: cover;
-			}
-	ul.img-list {
-	  list-style-type: none;
-	  margin: 0;
-	  padding: 0;
-	  text-align: center;
-	}
-
-	ul.img-list li {
-	  display: inline-block;
-	  height: 20em;
-	  margin: 1em;
-	  position: relative;
-	  width: 100%;
-	}
-	span.text-content {
-		background: rgba(0,0,0,0.5);
-		color: white;
-		cursor: pointer;
-		display: table;
-		height: 100%;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 100%;
-		opacity: 0;
-		-webkit-transition: opacity 500ms;
-		-moz-transition: opacity 500ms;
-		-o-transition: opacity 500ms;
-		transition: opacity 500ms;
-		padding-top: 5%;
-		font-family: 'Open Sans', sans-serif;
-		letter-spacing: .06em;
-
-	}
 	
 	p{
 		color:white;
@@ -199,48 +114,25 @@ nav{
 		letter-spacing: .06em;
 			
 	}
+
 	a{
 		color: white;
 		margin: 1em;
 	}
 
-ul.img-list li:hover span.text-content {
-	opacity: 1;
 }
 
-div.block{
-		margin-bottom: 6em;
-	span{
-		background-color: #AFAEAB;
-		margin: .9em;
-		border-radius: 5%;
-		padding:.5em;
-	}
-		}
->>>>>>> origin/master
-
-}
 footer{
 	height: 10em;
-<<<<<<< HEAD
 	background-color:white;
 	text-align: center;
 	a{
 		color:black;
-=======
-	background-color:#467ECC;
-	text-align: center;
-	a{
-		color: white;
->>>>>>> origin/master
-	}
+	}	
 	h2{
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 700;
-<<<<<<< HEAD
-=======
-		color: white;
->>>>>>> origin/master
+		
 		letter-spacing: .05em;
 		padding-top: 2em;
 	}
@@ -248,93 +140,6 @@ footer{
 
 }
 
-@media(min-width: 479px){ 
-
-}
 
 
-@media(min-width: 767px){ 
-	nav {
-		p{
-			padding-left: 6em;
-			padding-top: 4em;
-
-		}
-	}
-	.projects{
-		margin-top: 2em;
-
-		ul.img-list li{
-			margin: 2em;
-			height: 30em;
-		}
-
-		span.text-content{
-			padding-top: 20%;
-			h2{
-				font-size: 30px;
-			}
-		}
-		p{
-			font-size: 22px;
-			
-		}
-	}
-}
-
-@media(min-width: 979px){ 
-	nav {
-		span a{
-			margin:4em;		
-		}
-
-		p{	
-		font-size: 20px;
-		padding: 4em 4em;
-		margin-left: 10em;
-		margin-right: 10em;
-	
-		}
-			
-	}
-
-	.projects{
-		margin-top: 4em;
-		margin-left: 10em;
-		margin-right: 10em;
-		ul.img-list li{
-			margin: 4em;
-			height: 42em;
-			width: 80%;
-
-		}
-		span.text-content{
-			h2{
-			font-size: 35px;
-			}
-		
-		p{
-			font-size: 22px;
-			padding:1em;
-			
-		}
-		div.block{
-			margin-bottom: 12em;
-		}
-		a{
-			
-
-		}
-	}
-		
-}
-	footer{
-		font-size: 22px;
-	}
-
-
-
-
-		
-}
 
