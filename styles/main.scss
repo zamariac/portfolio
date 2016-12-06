@@ -44,7 +44,6 @@ nav{
 	.nenas-website{
 			background-color: #EC8830;
 				img{
-					// padding:3em 3em 0em;
 					width: 100%;
 					margin-top: 5em;
 				}
@@ -55,7 +54,6 @@ nav{
 	.snap-grid-website{
 			background-color:#0AA27B;
 				img{
-					// padding:3em 3em 0em;
 					width: 100%;
 					margin-top: 5em;
 				}
@@ -136,6 +134,54 @@ footer{
 
 
 }
+
+@media (min-width: 479px){
+	nav{
+		p{
+			font-size:18px;
+		}
+	}
+	.projects{
+		.instagram-clone{
+			img{
+				padding:3em 3em 0em;
+				width: 80%;
+				margin-top: 3em;
+			}
+		}
+		.nenas-website{
+			img{
+				padding:3em 3em 0em;
+				width: 80%;
+				margin-top: 3em;
+			}
+		}
+		.snap-grid-website{
+			img{
+				padding:3em 3em 0em;
+				width: 80%;
+				margin-top: 3em;
+			}
+		}
+		a{
+			margin: 3em;
+		}
+	}
+}
+
+@media(min-width: 767px){
+	.projects{
+			.instagram-clone{
+			display: inline-block;
+
+			}
+			
+		}
+	
+
+}
+
+//0-478 479-767 767-978 979-larger
 
 
 

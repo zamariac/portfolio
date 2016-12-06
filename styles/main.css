@@ -91,4 +91,26 @@ footer {
     letter-spacing: .05em;
     padding-top: 2em; }
 
+@media (min-width: 479px) {
+  nav p {
+    font-size: 18px; }
+
+  .projects .instagram-clone img {
+    padding: 3em 3em 0em;
+    width: 80%;
+    margin-top: 3em; }
+  .projects .nenas-website img {
+    padding: 3em 3em 0em;
+    width: 80%;
+    margin-top: 3em; }
+  .projects .snap-grid-website img {
+    padding: 3em 3em 0em;
+    width: 80%;
+    margin-top: 3em; }
+  .projects a {
+    margin: 3em; } }
+@media (min-width: 767px) {
+  .projects .instagram-clone {
+    display: inline-block; } }
+
 /*# sourceMappingURL=main.css.map */
