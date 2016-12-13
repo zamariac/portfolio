@@ -1,0 +1,22 @@
+{
+  "name": "portofolio_copy",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zamariac/portfolio",
+  "authors": [
+    "Maria Zamora <Zamora.Mariac@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7"
+  }
+}

@@ -1,6 +1,5 @@
 nav {
-  padding-top: 2em;
-  height: 36em; }
+  height: 38em; }
   nav span a {
     margin: 2em;
     color: black; }
@@ -14,9 +13,9 @@ nav {
   nav p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
-    padding: 8em 1em;
+    padding: 10em 1em;
     letter-spacing: .06em;
     line-height: 1.5; }
 
@@ -49,7 +48,7 @@ nav {
   .projects .text-content p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: .06em;
     line-height: 1.5;
@@ -70,13 +69,13 @@ nav {
   .projects p {
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 1em;
     padding-right: 1em;
     letter-spacing: .06em; }
   .projects a {
     color: white;
-    margin: 1em; }
+    margin: 3em; }
 
 footer {
   height: 10em;
