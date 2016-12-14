@@ -54,11 +54,12 @@ nav {
     line-height: 1.5;
     color: white;
     padding: 2em; }
-  .projects div.links {
-    padding: 3em 2em 4em; }
-  .projects a {
-    color: red;
-    margin-right: 1em; }
+  .projects div .links {
+    padding: 3em 2em 4em;
+    text-align: center; }
+    .projects div .links a {
+      margin: 2em;
+      color: white; }
   .projects div.block {
     text-align: center; }
     .projects div.block span {
@@ -73,9 +74,6 @@ nav {
     padding-left: 1em;
     padding-right: 1em;
     letter-spacing: .06em; }
-  .projects a {
-    color: white;
-    margin: 3em; }
 
 footer {
   height: 10em;
@@ -90,26 +88,72 @@ footer {
     letter-spacing: .05em;
     padding-top: 2em; }
 
-@media (min-width: 479px) {
+@media (min-width: 800px) {
   nav p {
-    font-size: 18px; }
+    padding: 10em 8em; }
 
-  .projects .instagram-clone img {
-    padding: 3em 3em 0em;
-    width: 80%;
-    margin-top: 3em; }
-  .projects .nenas-website img {
-    padding: 3em 3em 0em;
-    width: 80%;
-    margin-top: 3em; }
-  .projects .snap-grid-website img {
-    padding: 3em 3em 0em;
-    width: 80%;
-    margin-top: 3em; }
-  .projects a {
-    margin: 3em; } }
-@media (min-width: 767px) {
   .projects .instagram-clone {
-    display: inline-block; } }
+    overflow: hidden; }
+    .projects .instagram-clone img {
+      width: 60%;
+      float: left; }
+    .projects .instagram-clone .text-content {
+      float: right;
+      width: 40%;
+      padding-top: 2em;
+      padding-bottom: 1em; }
+      .projects .instagram-clone .text-content .links {
+        padding: 1em 0 2em; }
+        .projects .instagram-clone .text-content .links a {
+          margin: 1em; }
+  .projects .nenas-website {
+    overflow: hidden; }
+    .projects .nenas-website img {
+      width: 60%;
+      float: left; }
+    .projects .nenas-website .text-content {
+      float: right;
+      width: 40%;
+      padding-top: 2em;
+      padding-bottom: 1em; }
+      .projects .nenas-website .text-content .links {
+        padding: 1em 0 2em; }
+        .projects .nenas-website .text-content .links a {
+          margin: 1em; }
+  .projects .snap-grid-website {
+    overflow: hidden; }
+    .projects .snap-grid-website img {
+      width: 60%;
+      float: left; }
+    .projects .snap-grid-website .text-content {
+      float: right;
+      width: 40%;
+      padding-top: 2em;
+      padding-bottom: 1em; }
+      .projects .snap-grid-website .text-content .links {
+        padding: 1em 0 2em; }
+        .projects .snap-grid-website .text-content .links a {
+          margin: 1em; } }
+@media (min-width: 979px) {
+  nav p {
+    padding: 10em 20em; }
+
+  .projects .instagram-clone {
+    padding-bottom: 2em; }
+    .projects .instagram-clone .text-content {
+      padding-top: 9em; }
+  .projects .nenas-website {
+    padding-bottom: 2em; }
+    .projects .nenas-website .text-content {
+      padding-top: 9em; }
+  .projects .snap-grid-website {
+    padding-bottom: 2em; }
+    .projects .snap-grid-website .text-content {
+      padding-top: 9em; }
+
+  footer a {
+    padding-bottom: 4em; }
+  footer h2 {
+    padding-top: 3em; } }
 
 /*# sourceMappingURL=main.css.map */
