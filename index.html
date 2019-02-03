@@ -4,84 +4,140 @@
 	<meta charset="utf-8">
 	<title> Maria's Web Dev Portofolio</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 	<script src="https://use.fontawesome.com/4d62345198.js"></script>
 </head>
 <body>
-	<nav class= "contact-menu">
-		<section class="nav-top">
-				<h1>  MARIA ZAMORA</h1>
-				<span class="git">
-					<a href="https://github.com/zamariac"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-				</span>
-				<span>
-					<a href="https://www.linkedin.com/in/maria-zamora-b21929107"> <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-				</span>
-				<span>
-					<a href="https://twitter.com/zamariac_"> <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i> 
-					</a>
-				</span>
-		</section>
-		<p> <b>Hola!</b> I am a Web Designer and Front-End Developer. I build responsive websites and applications using HTML/CSS/SASS, JavaScript, jQuery and git. </p>
-	</nav>
-	<section class="projects">			
-	<div class="nenas-website">	
-				<img src="images/nenas copy edit.png">		
-				<div class="text-content"> 
-							<h1> Nenas Arepa Kitchen  </h1>
-	 						<div class="block">  
-	 							<span> jQuery </span> 
-	 							<span> Bootstrap </span>
-	 							<span> SASS </span>
-	 							<span> Branding </span>
-	 						</div>
-	 						<p>Responsive website for a grocery item designed, branded and personally owned. I co-developed the logo and coded the website using HTML and CSS. </p>
-	 						<div class="links">
-		 						<a href="http://www.nenasarepakitchen.com/" target="_blank"> See the site!</a>
-		 						<a href="https://github.com/zamariac/nenas_website" target="_blank"> See the code! </a>
-	 						</div>
-	 			</div>
- 			</div>
- 			<div class="instagram-clone">
-					<img src="images/cheeseburger copy edit.png">
-					<div class="text-content">
-								<h1> Photogram </h1>
-								<div class="block"> 
-									<span> JavaScript </span>
-									<span> SASS </span>
-									<span> AJAX </span>
-								</div>
-								<p>Responsive image board web application allows user to add images and captions via a url creating a feed of images. I built the app using AJAX to store, save and post data.  
-								</p>
-								<div class="links"> 
-									<a href="https://delightful-stretch.surge.sh" target="_blank"> See the App!</a>
-									<a href="https://github.com/zamariac/ajax_Instagram" target="_blank"> See the code! </a>
-								</div>
+
+	<header class="header">
+			<h1 class="logo">Maria Zamora</h1>
+			<ul class="main-nav">
+				<li class="info-tab"><a href="#info">Info</a></li>
+				<li class="work-tab"><a href="#work">Work</a></li>
+			</ul>
+	</header> 
+
+	<section class="projects" href="#work">
+		<div class="bodinuity project">
+					<img src="images/bodinuity.png">
+					<div class="overlay">
+						<h1> Bodinuity</h1>
+						<div class="block"> 
+							<span>- WordPress - </span>
+						</div>
+						<p>Massage Therapy website built with WordPress CMS for private client to client's specification</p>
+						<div class="links"> 
+							<a href="https://bodinuity.com/" target="_blank"> See the site! </a>
+						</div>
+					</div>
+		</div>
+		<div class="nenas-website project">	
+			<img src="images/nenas.png">		
+			<div class="overlay"> 
+				<h1> Nenas Arepa Kitchen  </h1>
+					<div class="block">  
+						<span> jQuery - </span> 
+						<span> Bootstrap - </span>
+						<span> SASS - </span>
+			  			<span> Branding </span>
+					</div>
+					<p>Responsive website for a grocery item designed, branded and personally owned. I co-developed the logo and coded the website using HTML and CSS. </p>
+					<div class="links">
+						<a href="http://www.nenasarepakitchen.com/" target="_blank"> See the site!</a>
+						<a href="https://github.com/zamariac/nenas_website" target="_blank"> See the code! </a>
+					</div>
+			</div>
+		</div>
+		<div class="someware project ">	
+				<img src="images/someware.png">		
+				<div class="overlay"> 
+					<h1> Someware Goods</h1>
+						<div class="block">  
+							<span> - Shopify - </span> 
+						</div>
+						<p>Online home goods store built with Shopify.</p>
+						<div class="links">
+							<a href="https://somewaregoods.com/" target="_blank"> See the site!</a>
+		
+						</div>
+				</div>
+		</div>
+		<div class="triperoo project">
+				<img src="images/triperoo.png">
+				<div class="overlay">
+					<h1> Triperoo</h1>
+					<div class="block"> 
+						<span> JavaScript - </span>
+						<span> Skyscanner API - </span>
+						<span> Laravel - </span>
+					</div>
+					<p>Responsive travel website built with Laravel and Skycanner API.  </p>
+					<div class="links"> 
+						<a href="https://triperoo.com" target="_blank"> See the site! </a>
 					</div>
 				</div>
-			<div class="snap-grid-website">			
-				<img src="images/snapgridforreal copy edit.png">
-				<div class="text-content"> 
-							<h1> Snapgrid </h1>
-							<div class="block">
-								<span> Bootstrap </span>
-								<span> HTML </span>
-								<span> SASS </span>
-							</div>
-							<p>Responsive website project using grid systems. I built this site as practice using Bootstrap grids and media queries.</p>
-							<div class="links">
-								<a href="https://deep-sea.surge.sh/" target="blank"> See the site! </a>
-								<a href="https://github.com/zamariac/bootstrap-grid" target="blank"> See the code! </a>
-							</div>
+		</div>
+		<div class="careersandcareers project">
+			<img src="images/careersand.png">
+			<div class="overlay">
+				<h1> Careers and Careers</h1>
+				<div class="block"> 
+					<span> Laravel </span>
+				</div>
+				<p>Responsive job site built with Laravel.</p>
+				<div class="links"> 
+					<a href="http://careersandcareers.com" target="_blank"> See the site! </a>
 				</div>
 			</div>
+		</div>
+		<div class="instagram-clone project three">
+			<img src="images/cheeseburger copy edit.png">
+			<div class="overlay">
+				<h1> Photogram </h1>
+				<div class="block"> 
+					<span> JavaScript - </span>
+					<span> SASS - </span>
+					<span> AJAX - </span>
+				</div>
+				<p>Responsive image board web application allows user to add images and captions via a url creating a feed of images. I built the app using AJAX to store, save and post data.  </p>
+				<div class="links"> 
+					<a href="https://delightful-stretch.surge.sh" target="_blank"> See the App!</a>
+					<a href="https://github.com/zamariac/ajax_Instagram" target="_blank"> See the code! </a>
+				</div>
+			</div>
+		</div>
 	</section>
-	<footer> 
-		<h2>What can we build together?</h2>
-		<a href="mailto:zamora.mariac@gmail.com"> 
-				<i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
-			</a>
-	</footer>
+	<section class="info" href="#info">
+		<div class="intro">
+			<h2>Hola!</h2><p> I am a Front-End Developer. I build responsive websites and applications. <b>I like using HTML, CSS, Flexbox, SASS, JavaScript, Laravel, WordPress, git and/or whatever gets the job done!</b> I've had the opportunity to work on a wide variety of projects involving responsive websites, e-commerce, email marketing as well as signage and murals. When I'm not coding, you can find me cooking, hanging out with my dogs or learning something new. Let's work together!</p>
+		</div>
+		<div class="contact">
+			<span>
+				<a href="mailto:zamora.mariac@gmail.com" style="text-decoration:none;">
+					<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+				</a>	
+			</span>
+			<span>
+				<a href="https://github.com/zamariac"> <i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+			</span>
+			<span>
+				<a href="https://www.linkedin.com/in/maria-zamora-b21929107"> <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+			</span>
+			<span>
+				<a href="https://twitter.com/zamariac_"> <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i> 
+					</a>
+			</span>
+		</div>
+		<div class="myface">
+			<img src="images/myface.jpg">
+		</div>
+	</section>
+
+<footer>
+</footer>
+
+		<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>
+
