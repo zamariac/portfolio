@@ -83,6 +83,16 @@ div.project{
   font-family: 'Montserrat', sans-serif;
 }
 
+.project:active .overlay {
+  opacity: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:#ffffff;
+  padding-top:10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 img{
   width:450px;
   height:550px;
@@ -174,16 +184,33 @@ footer{
 
 }
 
+
 @media (min-width: 1025px) {
 	.header {
 		flex-direction: row;
 		justify-content: space-between;
-	}
+  }
+  
+  /* div.project{
+    position: relative;
+    margin:1.5em;
+  }
+
+  section.projects {
+    width: 100%;
+  } */
 
 }
 
 
+/* @media (min-width: 1065px){
+  section.projects {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
 
+} */
 
 
 
