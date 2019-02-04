@@ -78,7 +78,6 @@ div.project{
   align-items: center;
   justify-content: center;
   color:#ffffff;
-  padding-top:10px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -216,7 +215,7 @@ footer{
 
   section.info{
     width:70%;
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .main-nav a {
@@ -227,9 +226,10 @@ footer{
     font-size: 2.45em;
   }
 
-  .overlay{
-    font-size: 18px;
+  body > section.projects > div > div{
+    font-size: 25px;
   }
+
 
 }
 
